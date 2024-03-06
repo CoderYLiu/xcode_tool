@@ -10,11 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// 创建
-self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
-                                                            target:self
-                                              selector:@selector(&lt;#timerMethod#&gt;)
-                                                          userInfo:nil
-                                                           repeats:YES];
+self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(&lt;#timerMethod#&gt;) userInfo:nil repeats:YES];
+
 // 取消
 [self.&lt;#var#&gt; invalidate];
 

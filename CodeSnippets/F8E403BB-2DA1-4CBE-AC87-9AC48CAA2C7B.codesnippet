@@ -11,8 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - Resumable Protocol 
 
-- (ApiRecord *) apiRecordValue {
-    ApiRecord * record = [[ApiRecord alloc] init];
+- (ApiRecord *)apiRecordValue {
+    ApiRecord *record = [[ApiRecord alloc] init];
     record.apiId = [ModelUtils getRequestHashKey:self];
     record.clazz = [self class];
     record.args = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -23,8 +23,8 @@
     return record;
 }
 
-- (void) resumeFromApiRecord:(ApiRecord *)apiRecord {
-    NSDictionary * args = apiRecord.args;
+- (void)resumeFromApiRecord:(ApiRecord *)apiRecord {
+    NSDictionary *args = apiRecord.args;
     
 }
 

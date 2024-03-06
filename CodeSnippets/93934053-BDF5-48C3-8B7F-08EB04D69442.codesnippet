@@ -9,10 +9,11 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self = [super init];
-    if (self) {
-    }
-    return self;</string>
+	<string>self = [super init];
+if (self) {
+    
+}
+return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>93934053-BDF5-48C3-8B7F-08EB04D69442</string>
 	<key>IDECodeSnippetLanguage</key>
